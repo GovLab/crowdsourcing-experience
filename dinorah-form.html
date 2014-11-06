@@ -6,7 +6,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="intro">
+<div class="logo">
+	<img src="govlab-logo.png" alt="">
+</div>
+<div class="intro-section">
 	<h1>Your Crowdsourcing Experience</h1>
 	<h2>The Questionnaire</h2>
 	<p>The Crowdsourcing Design Advisor is designed to help decision-makers in the public and private sector make an informed decision about when and how to use crowdsourcing.</p>
@@ -21,18 +24,19 @@
 </div>
 
 <form action="https://docs.google.com/forms/d/16WPs6esTaLOTwHxN1Ga5Hcpc7iaw3FPUidW6FD_7v98/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-  <ol role="list" class="ss-question-list">
+  <ol role="list" class="ss-question-list form-section">
     <div class="ss-form-question errorbox-good" role="listitem">
       <div dir="ltr" class="ss-item ss-item-required ss-text">
         <div class="ss-form-entry">
           <label class="ss-q-item-label" for="entry_233640175">
-            <div class="ss-q-title">1. NAME: Name of your crowdsourcing project or tool.
+            <div class="q-subject">NAME</div>
+            <div class="ss-q-title">Name of your crowdsourcing project or tool.
               <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
               <span class="ss-required-asterisk">*</span>
             </div>
             <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
           </label>
-          <input type="text" name="entry.233640175" value="" class="ss-q-short" id="entry_233640175" dir="auto" aria-label="1. NAME: Name of your crowdsourcing project or tool.  " aria-required="true" required="" title="">
+          <input type="text" name="entry.233640175" value="" class="ss-q-short" id="entry_233640175" dir="auto" aria-label="NAME: Name of your crowdsourcing project or tool.  " aria-required="true" required="" title="">
           <div class="error-message" id="328510209_errorMessage"></div>
           <div class="required-message">This is a required question</div>
         </div>
@@ -42,10 +46,10 @@
       <div dir="ltr" class="ss-item ss-text">
         <div class="ss-form-entry">
           <label class="ss-q-item-label" for="entry_503079898">
-            <div class="ss-q-title">2. URL:</div>
+            <div class="ss-q-title">URL:</div>
             <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
           </label>
-          <input type="text" name="entry.503079898" value="" class="ss-q-short" id="entry_503079898" dir="auto" aria-label="2. URL:  " title="">
+          <input type="text" name="entry.503079898" value="" class="ss-q-short" id="entry_503079898" dir="auto" aria-label="URL:  " title="">
           <div class="error-message" id="898260395_errorMessage"></div>
           <div class="required-message">This is a required question</div>
         </div>
@@ -55,13 +59,14 @@
       <div dir="ltr" class="ss-item ss-item-required ss-checkbox">
       <div class="ss-form-entry">
         <label class="ss-q-item-label" for="entry_1642910737">
-          <div class="ss-q-title">3. FOCUS: What category best describes your crowdsourcing project area of focus?
+          <div class="q-subject">FOCUS</div>
+          <div class="ss-q-title">What category best describes your crowdsourcing project area of focus?
             <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
             <span class="ss-required-asterisk">*</span>
           </div>
           <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
         </label>
-        <ul class="ss-choices ss-choices-required" role="group" aria-label="3. FOCUS: What category best describes your crowdsourcing project area of focus?  ">
+        <ul class="col-3 ss-choices ss-choices-required" role="group" aria-label="3. FOCUS: What category best describes your crowdsourcing project area of focus?  ">
           <li class="ss-choice-item">
             <label>
               <span class="ss-choice-item-control goog-inline-block">
@@ -275,13 +280,14 @@
 		<div dir="ltr" class="ss-item ss-item-required ss-radio">
 			<div class="ss-form-entry">
 				<label class="ss-q-item-label" for="entry_2033113682">
-					<div class="ss-q-title">4. SECTOR: To which sector does your organization or project belong? 
+        <div class="q-subject">SECTOR</div>
+					<div class="ss-q-title">To which sector does your organization or project belong? 
 						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 						<span class="ss-required-asterisk">*</span>
 					</div>
 					<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 				</label>
-				<ul class="ss-choices" role="radiogroup" aria-label="4. SECTOR: To which sector does your organization or project belong?">
+				<ul class="col-2 ss-choices" role="radiogroup" aria-label="4. SECTOR: To which sector does your organization or project belong?">
 					<li class="ss-choice-item">
 						<label>
 							<span class="ss-choice-item-control goog-inline-block">
@@ -335,13 +341,14 @@
 		<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
 			<div class="ss-form-entry">
 				<label class="ss-q-item-label" for="entry_717398195">
-					<div class="ss-q-title">5. SCOPE: What is the organization&#39;s or project&#39;s intended geographical scope or reach? 
+          <div class="q-subject">SCOPE</div>
+					<div class="ss-q-title">What is the organization&#39;s or project&#39;s intended geographical scope or reach? 
 						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 						<span class="ss-required-asterisk">*</span>
 					</div>
 					<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div>
 				</label>
-				<ul class="ss-choices ss-choices-required" role="group" aria-label="5. SCOPE: What is the organization&#39;s or project&#39;s intended geographical scope or reach?  You can select more than one ">
+				<ul class="col-2 ss-choices ss-choices-required" role="group" aria-label="5. SCOPE: What is the organization&#39;s or project&#39;s intended geographical scope or reach?  You can select more than one ">
 					<li class="ss-choice-item">
 						<label>
 							<span class="ss-choice-item-control goog-inline-block">
@@ -398,7 +405,8 @@
 	<div dir="ltr" class="ss-item ss-item-required ss-text">
 		<div class="ss-form-entry">
 			<label class="ss-q-item-label" for="entry_1140192066">
-				<div class="ss-q-title">6. LOCATION: Place (or places) of origin or implementation? 
+        <div class="q-subject">LOCATION</div>
+				<div class="ss-q-title">Place (or places) of origin or implementation? 
 					<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 					<span class="ss-required-asterisk">*</span>
 				</div>
@@ -414,18 +422,19 @@
 	<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
 		<div class="ss-form-entry">
 			<label class="ss-q-item-label" for="entry_286290796">
-				<div class="ss-q-title">7. TYPE OF ACTIVITY: What do you ask the crowd to do? 
+        <div class="q-subject">TYPE OF ACTIVITY</div>
+				<div class="ss-q-title">What do you ask the crowd to do? 
 					<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 					<span class="ss-required-asterisk">*</span>
 				</div>
 				<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div></label>
-				<ul class="ss-choices ss-choices-required" role="group" aria-label="7. TYPE OF ACTIVITY: What do you ask the crowd to do?  You can select more than one ">
+				<ul class="col-2 activity ss-choices ss-choices-required" role="group" aria-label="7. TYPE OF ACTIVITY: What do you ask the crowd to do?  You can select more than one ">
 					<li class="ss-choice-item">
 						<label>
 							<span class="ss-choice-item-control goog-inline-block">
 								<input type="checkbox" name="entry.15970723" value="Tasks &mdash; You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)" id="group_15970723_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
 							</span>
-							<span class="ss-choice-label">Tasks — You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)</span>
+							<span class="ss-choice-label"><strong>Tasks</strong> — You ask the crowd to perform specific tasks (i.e. design a t-shirt, tag photos, classify information)</span>
 						</label>
 					</li> 
 					<li class="ss-choice-item">
@@ -433,7 +442,7 @@
 							<span class="ss-choice-item-control goog-inline-block">
 								<input type="checkbox" name="entry.15970723" value="Data &mdash; You collect data from the crowd (i.e.&nbsp;report a water leak, a pothole, a case of corruption)" id="group_15970723_2" role="checkbox" class="ss-q-checkbox" aria-required="true">
 							</span>
-							<span class="ss-choice-label">Data — You collect data from the crowd (i.e. report a water leak, a pothole, a case of corruption)</span>
+							<span class="ss-choice-label"><strong>Data</strong> — You collect data from the crowd (i.e. report a water leak, a pothole, a case of corruption)</span>
 						</label>
 					</li> 
 					<li class="ss-choice-item">
@@ -441,7 +450,7 @@
 							<span class="ss-choice-item-control goog-inline-block">
 								<input type="checkbox" name="entry.15970723" value="Funds &mdash; You obtain funds from the crowd (i.e.&nbsp;donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)" id="group_15970723_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
 							</span>
-							<span class="ss-choice-label">Funds — You obtain funds from the crowd (i.e. donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)</span>
+							<span class="ss-choice-label"><strong>Funds</strong> — You obtain funds from the crowd (i.e. donate money to help film a documentary, open a fair trade restaurant, help stage a theater play)</span>
 						</label>
 					</li> 
 					<li class="ss-choice-item">
@@ -449,7 +458,7 @@
 							<span class="ss-choice-item-control goog-inline-block">
 								<input type="checkbox" name="entry.15970723" value="Opinions &mdash; You ask the crowd for their opinion (i.e.&nbsp;vote on a design contest, give your perspective on a policy recommendation)" id="group_15970723_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
 							</span>
-							<span class="ss-choice-label">Opinions — You ask the crowd for their opinion (i.e. vote on a design contest, give your perspective on a policy recommendation)</span>
+							<span class="ss-choice-label"><strong>Opinions</strong> — You ask the crowd for their opinion (i.e. vote on a design contest, give your perspective on a policy recommendation)</span>
 						</label>
 					</li> 
 					<li class="ss-choice-item">
@@ -457,7 +466,7 @@
 							<span class="ss-choice-item-control goog-inline-block">
 								<input type="checkbox" name="entry.15970723" value="Ideas &mdash; You want the crowd to find innovative solutions (i.e.&nbsp;solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)" id="group_15970723_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
 							</span>
-							<span class="ss-choice-label">Ideas — You want the crowd to find innovative solutions (i.e. solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)</span>
+							<span class="ss-choice-label"><strong>Ideas</strong> — You want the crowd to find innovative solutions (i.e. solve a scientific problem, give solutions to improve the health system of a hospital, generate ideas to reduce unnecessary government spending)</span>
 						</label>
 					</li> 
 					<li class="ss-choice-item">
@@ -481,13 +490,14 @@
 	<div dir="ltr" class="ss-item ss-item-required ss-radio">
 		<div class="ss-form-entry">
 			<label class="ss-q-item-label" for="entry_2137317810">
-				<div class="ss-q-title">8. PARTICIPATION: Do you limit participation to a defined community, or do you allow anyone to be able to participate?
+        <div class="q-subject">PARTICIPATION</div>
+				<div class="ss-q-title">Do you limit participation to a defined community, or do you allow anyone to be able to participate?
 					<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 					<span class="ss-required-asterisk">*</span>
 				</div>
 				<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 			</label>
-			<ul class="ss-choices" role="radiogroup" aria-label="8. PARTICIPATION: Do you limit participation to a defined community, or do you allow anyone to be able to participate?  ">
+			<ul class="col-2 ss-choices" role="radiogroup" aria-label="8. PARTICIPATION: Do you limit participation to a defined community, or do you allow anyone to be able to participate?  ">
 				<li class="ss-choice-item">
 					<label>
 						<span class="ss-choice-item-control goog-inline-block">
@@ -525,7 +535,8 @@
 		<div dir="ltr" class="ss-item  ss-text">
 			<div class="ss-form-entry">
 				<label class="ss-q-item-label" for="entry_1912103152">
-					<div class="ss-q-title">9. PARTICIPATION (follow-up): if you limit participation to a defined community can you explain us why?</div>
+        	<div class="q-subject">PARTICIPATION</div>
+					<div class="ss-q-title">if you limit participation to a defined community can you explain us why?</div>
 					<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 				</label>
 				<input type="text" name="entry.1912103152" value="" class="ss-q-short" id="entry_1912103152" dir="auto" aria-label="9. PARTICIPATION (follow-up): if you limit participation to a defined community can you explain us why?  " title="">
@@ -538,19 +549,20 @@
 		<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
 			<div class="ss-form-entry">
 				<label class="ss-q-item-label" for="entry_1171871836">
-					<div class="ss-q-title">10. INCENTIVES: Why has your crowd been willing to participate?
+	        <div class="q-subject">INCENTIVES</div>
+					<div class="ss-q-title">Why has your crowd been willing to participate?
 						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
 						<span class="ss-required-asterisk">*</span>
 					</div>
 					<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div></label>
-					<ul class="ss-choices ss-choices-required" role="group" aria-label="10. INCENTIVES: Why has your crowd been willing to participate? You can select more than one ">
+					<ul class="col-2 ss-choices ss-choices-required" role="group" aria-label="10. INCENTIVES: Why has your crowd been willing to participate? You can select more than one ">
 						<li class="ss-choice-item">
 							<label>
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Financial Incentives &mdash; To earn money" id="group_743820607_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
 									</span>
 								
-								<span class="ss-choice-label">Financial Incentives — To earn money</span>
+								<span class="ss-choice-label"><strong>Financial Incentives</strong> — To earn money</span>
 							</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -559,7 +571,7 @@
 									<input type="checkbox" name="entry.743820607" value="Knowledge Building &mdash; To contribute to a specific field of knowledge" id="group_743820607_2" role="checkbox" class="ss-q-checkbox"		
 									 aria-required="true">
 								</span>
-								<span class="ss-choice-label">Knowledge Building — To contribute to a specific field of knowledge</span>
+								<span class="ss-choice-label"><strong>Knowledge Building</strong> — To contribute to a specific field of knowledge</span>
 							</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -567,7 +579,7 @@
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Skill Development &mdash; To build a portfolio" id="group_743820607_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
 									</span>		
-								<span class="ss-choice-label">Skill Development — To build a portfolio</span>
+								<span class="ss-choice-label"><strong>Skill Development</strong> — To build a portfolio</span>
 						</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -575,7 +587,7 @@
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Community Building &mdash; To contribute to a large project of common interest" id="group_743820607_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
 								</span>
-								<span class="ss-choice-label">Community Building — To contribute to a large project of common interest</span>
+								<span class="ss-choice-label"><strong>Community Building</strong> — To contribute to a large project of common interest</span>
 							</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -583,7 +595,7 @@
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Civic Responsibility &mdash; Altruism motivates citizen volunteers" id="group_743820607_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
 								</span>
-								<span class="ss-choice-label">Civic Responsibility — Altruism motivates citizen volunteers</span>
+								<span class="ss-choice-label"><strong>Civic Responsibility</strong> — Altruism motivates citizen volunteers</span>
 						</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -591,14 +603,14 @@
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Public Recognition &mdash; To socialize and be publicly acknowledged" id="group_743820607_6" role="checkbox" class="ss-q-checkbox" aria-required="true">
 								</span>
-								<span class="ss-choice-label">Public Recognition — To socialize and be publicly acknowledged</span>
+								<span class="ss-choice-label"><strong>Public Recognition</strong> — To socialize and be publicly acknowledged</span>
 							</label>
 						</li> 
 						<li class="ss-choice-item">
 							<label>
 								<span class="ss-choice-item-control goog-inline-block">
 									<input type="checkbox" name="entry.743820607" value="Competition &mdash; To be challenged with a tough problem" id="group_743820607_7" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
-									<span class="ss-choice-label">Competition — To be challenged with a tough problem</span>
+									<span class="ss-choice-label"><strong>Competition</strong> — To be challenged with a tough problem</span>
 							</label>
 						</li> 
 						<li class="ss-choice-item">
@@ -619,213 +631,504 @@
 				</div>
 			</div> 
 
-<div class="ss-form-question errorbox-good" role="listitem">
-	<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
-		<div class="ss-form-entry">
-			<label class="ss-q-item-label" for="entry_1409834349">
-				<div class="ss-q-title">11. INTERFACE: Through which communication technology or platform the crowd participate?
-					<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-					<span class="ss-required-asterisk">*</span>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_1409834349">
+			        <div class="q-subject">INTERFACE</div>
+							<div class="ss-q-title">Through which communication technology or platform the crowd participate?
+								<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+								<span class="ss-required-asterisk">*</span>
+							</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div>
+						</label>
+						<ul class="col-2 ss-choices ss-choices-required" role="group" aria-label="11. INTERFACE: Through which communication technology or platform the crowd participate? You can select more than one ">
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="Mobile Application&nbsp;" id="group_778875877_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Mobile Application</span>
+								</label>
+							</li> 
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="&nbsp;SMS Texts &nbsp;" id="group_778875877_2" role="checkbox" class="ss-q-checkbox" aria-required="true">
+									</span>
+									<span class="ss-choice-label">SMS Texts</span>
+								</label>
+							</li> 
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="Website &nbsp;" id="group_778875877_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Website</span>
+								</label>
+							</li> 
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="Social Media" id="group_778875877_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Social Media</span>
+								</label>
+							</li> 
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="Email" id="group_778875877_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Email</span>
+								</label>
+							</li> 
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="checkbox" name="entry.778875877" value="__other_option__" id="group_778875877_6" role="checkbox" class="ss-q-checkbox ss-q-other-toggle" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Other:</span></label>
+								<span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.778875877.other_option_response" value="" class="ss-q-other" id="entry_778875877_other_option_response" dir="auto" aria-label="Other"></span>
+							</li>
+						</ul>
+						<div class="error-message" id="1409834349_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+						</div>
+					</div>
+				</div> 
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1577372569">
+				        <div class="q-subject">QUALITY CONTROL</div>
+								<div class="ss-q-title">What quality control mechanism do you apply to the activity performed by the crowd?
+									<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div>
+							</label>
+							<ul class="ss-choices ss-choices-required" role="group" aria-label="12. QUALITY CONTROL: What quality control mechanism do you apply to the activity performed by the crowd? You can select more than one ">
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="The crowdsourcing organization/project chooses which activity performed by the crowd is the best fit" id="group_1865076991_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label">The crowdsourcing organization/project chooses which activity performed by the crowd is the best fit</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="A group of experts verifies the quality and have the final decision about the activity performed by the crowd" id="group_1865076991_2" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label">A group of experts verifies the quality and have the final decision about the activity performed by the crowd</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="The crowd verifies the quality of the activity performed by the crowd by voting for the best choice" id="group_1865076991_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label">The crowd verifies the quality of the activity performed by the crowd by voting for the best choice</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="&nbsp;The crowd rates the quality of the activity performed by ranking submissions or individually voting up or down" id="group_1865076991_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label"> The crowd rates the quality of the activity performed by ranking submissions or individually voting up or down</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="A self-selected group of peers verifies the quality of the activity performed by the crowd to which they belong" id="group_1865076991_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label">A self-selected group of peers verifies the quality of the activity performed by the crowd to which they belong</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="No quality control mechanism&mdash;for example, crowfunding doesn&#39;t require a quality control mechanism" id="group_1865076991_6" role="checkbox" class="ss-q-checkbox" aria-required="true">
+										</span>
+										<span class="ss-choice-label">No quality control mechanism—for example, crowfunding doesn&#39;t require a quality control mechanism</span>
+									</label>
+								</li> 
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="checkbox" name="entry.1865076991" value="__other_option__" id="group_1865076991_7" role="checkbox" class="ss-q-checkbox ss-q-other-toggle" aria-required="true">
+										</span>
+										<span class="ss-choice-label">Other:</span>
+									</label>
+									<span class="ss-q-other-container goog-inline-block">
+										<input type="text" name="entry.1865076991.other_option_response" value="" class="ss-q-other" id="entry_1865076991_other_option_response" dir="auto" aria-label="Other">
+									</span>
+								</li>
+							</ul>
+							<div class="error-message" id="1577372569_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
+					</div>
+				</div> 
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1340347722">
+				        <div class="q-subject">GENERAL DESCRIPTION</div>
+								<div class="ss-q-title">Please give us a general description of your crowdsourcing project. 
+									<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr">What is the main objective of your crowdsourcing project? How does the tool or project work?</div>
+							</label>
+							<textarea name="entry.1340347722" rows="8" cols="0" class="ss-q-long" id="entry_1340347722" dir="auto" aria-label="13. GENERAL DESCRIPTION: Please give us a general description of your crowdsourcing project.  What is the main objective of your crowdsourcing project? How does the tool or project work? " aria-required="true" required=""></textarea>
+							<div class="error-message" id="387289564_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
+					</div>
+				</div> 
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-radio">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1851676540">
+				        <div class="q-subject">CLASSIFICATION</div>
+								<div class="ss-q-title">Please select the word that best describes your crowdsourcing project
+									<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+									<span class="ss-required-asterisk">*</span>
+								</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr">Tools: specific products, platforms or services that enable crowdsourcing efforts. Case Study: description of a specific use of crowdsourcing.</div>
+							</label>
+							<ul class="ss-choices" role="radiogroup" aria-label="CLASSIFICATION: Please select the word that best describes your crowdsourcing project Tools: specific products, platforms or services that enable crowdsourcing efforts. Case Study: description of a specific use of crowdsourcing. ">
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.1708361297" value="Tool" id="group_1708361297_1" role="radio" class="ss-q-radio" aria-label="Tool" required="" aria-required="true">
+										</span>
+										<span class="ss-choice-label">Tool</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.1708361297" value="Case study" id="group_1708361297_2" role="radio" class="ss-q-radio" aria-label="Case study" required="" aria-required="true">
+										</span>
+										<span class="ss-choice-label">Case study</span>
+									</label>
+								</li>
+							</ul>
+							<div class="error-message" id="1851676540_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
+					</div>
 				</div>
-				<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div>
-			</label>
-			<ul class="ss-choices ss-choices-required" role="group" aria-label="11. INTERFACE: Through which communication technology or platform the crowd participate? You can select more than one ">
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="Mobile Application&nbsp;" id="group_778875877_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
-						</span>
-						<span class="ss-choice-label">Mobile Application</span>
-					</label>
-				</li> 
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="&nbsp;SMS Texts &nbsp;" id="group_778875877_2" role="checkbox" class="ss-q-checkbox" aria-required="true">
-						</span>
-						<span class="ss-choice-label"> SMS Texts  </span>
-					</label>
-				</li> 
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="Website &nbsp;" id="group_778875877_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
-						</span>
-						<span class="ss-choice-label">Website  </span>
-					</label>
-				</li> 
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="Social Media" id="group_778875877_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
-						</span>
-						<span class="ss-choice-label">Social Media</span>
-					</label>
-				</li> 
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="Email" id="group_778875877_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
-						</span>
-						<span class="ss-choice-label">Email</span>
-					</label>
-				</li> 
-				<li class="ss-choice-item">
-					<label>
-						<span class="ss-choice-item-control goog-inline-block">
-							<input type="checkbox" name="entry.778875877" value="__other_option__" id="group_778875877_6" role="checkbox" class="ss-q-checkbox ss-q-other-toggle" aria-required="true">
-						</span>
-						<span class="ss-choice-label">Other:</span></label>
-					<span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.778875877.other_option_response" value="" class="ss-q-other" id="entry_778875877_other_option_response" dir="auto" aria-label="Other"></span>
-				</li>
-			</ul>
-			<div class="error-message" id="1409834349_errorMessage"></div>
-			<div class="required-message">This is a required question</div>
-			</div>
-		</div>
-	</div> 
-	<div class="ss-form-question errorbox-good" role="listitem">
-		<div dir="ltr" class="ss-item ss-item-required ss-checkbox">
-			<div class="ss-form-entry">
-				<label class="ss-q-item-label" for="entry_1577372569">
-					<div class="ss-q-title">12. QUALITY CONTROL: What quality control mechanism do you apply to the activity performed by the crowd?
-						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-						<span class="ss-required-asterisk">*</span>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item  ss-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1268512359">
+								<div class="q-subject">SIZE</div>
+								<div class="ss-q-title">How many people has your tool or project engaged up to now?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="text" name="entry.1268512359" value="" class="ss-q-short" id="entry_1268512359" dir="auto" aria-label="15. SIZE: How many people has your tool or project engaged up to now?" title="">
+							<div class="error-message" id="2041078999_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
 					</div>
-					<div class="ss-q-help ss-secondary-text" dir="ltr">You can select more than one</div>
-				</label>
-				<ul class="ss-choices ss-choices-required" role="group" aria-label="12. QUALITY CONTROL: What quality control mechanism do you apply to the activity performed by the crowd? You can select more than one ">
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="The crowdsourcing organization/project chooses which activity performed by the crowd is the best fit" id="group_1865076991_1" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label">The crowdsourcing organization/project chooses which activity performed by the crowd is the best fit</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="A group of experts verifies the quality and have the final decision about the activity performed by the crowd" id="group_1865076991_2" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label">A group of experts verifies the quality and have the final decision about the activity performed by the crowd</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="The crowd verifies the quality of the activity performed by the crowd by voting for the best choice" id="group_1865076991_3" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label">The crowd verifies the quality of the activity performed by the crowd by voting for the best choice</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="&nbsp;The crowd rates the quality of the activity performed by ranking submissions or individually voting up or down" id="group_1865076991_4" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label"> The crowd rates the quality of the activity performed by ranking submissions or individually voting up or down</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="A self-selected group of peers verifies the quality of the activity performed by the crowd to which they belong" id="group_1865076991_5" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label">A self-selected group of peers verifies the quality of the activity performed by the crowd to which they belong</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="No quality control mechanism&mdash;for example, crowfunding doesn&#39;t require a quality control mechanism" id="group_1865076991_6" role="checkbox" class="ss-q-checkbox" aria-required="true">
-							</span>
-							<span class="ss-choice-label">No quality control mechanism—for example, crowfunding doesn&#39;t require a quality control mechanism</span>
-						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="checkbox" name="entry.1865076991" value="__other_option__" id="group_1865076991_7" role="checkbox" class="ss-q-checkbox ss-q-other-toggle" aria-required="true">
-							</span>
-							<span class="ss-choice-label">Other:</span>
-						</label>
-						<span class="ss-q-other-container goog-inline-block">
-							<input type="text" name="entry.1865076991.other_option_response" value="" class="ss-q-other" id="entry_1865076991_other_option_response" dir="auto" aria-label="Other">
-						</span>
-					</li>
-				</ul>
-				<div class="error-message" id="1577372569_errorMessage"></div>
-				<div class="required-message">This is a required question</div>
-			</div>
-		</div>
-	</div> 
-	<div class="ss-form-question errorbox-good" role="listitem">
-		<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
-			<div class="ss-form-entry">
-				<label class="ss-q-item-label" for="entry_1340347722">
-					<div class="ss-q-title">13. GENERAL DESCRIPTION: Please give us a general description of your crowdsourcing project. 
-						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-						<span class="ss-required-asterisk">*</span>
+				</div>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item  ss-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1306000647">
+								<div class="q-subject">DURATION</div>
+								<div class="ss-q-title">For how long has your crowdsourcing project been taking place?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="text" name="entry.1306000647" value="" class="ss-q-short" id="entry_1306000647" dir="auto" aria-label="16. DURATION: For how long has your crowdsourcing project been taking place?" title="">
+							<div class="error-message" id="527298431_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
 					</div>
-					<div class="ss-q-help ss-secondary-text" dir="ltr">What is the main objective of your crowdsourcing project? How does the tool or project work?</div>
-				</label>
-				<textarea name="entry.1340347722" rows="8" cols="0" class="ss-q-long" id="entry_1340347722" dir="auto" aria-label="13. GENERAL DESCRIPTION: Please give us a general description of your crowdsourcing project.  What is the main objective of your crowdsourcing project? How does the tool or project work? " aria-required="true" required=""></textarea>
-				<div class="error-message" id="387289564_errorMessage"></div>
-				<div class="required-message">This is a required question</div>
-			</div>
-		</div>
-	</div> 
-	<div class="ss-form-question errorbox-good" role="listitem">
-		<div dir="ltr" class="ss-item ss-item-required ss-radio">
-			<div class="ss-form-entry">
-				<label class="ss-q-item-label" for="entry_1851676540">
-					<div class="ss-q-title">14. CLASSIFICATION: Please select the word that best describes your crowdsourcing project
-						<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-						<span class="ss-required-asterisk">*</span>
+				</div>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-radio">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_24707960">
+								<div class="q-subject">COST</div>
+								<div class="ss-q-title">Could you share with us the costs of deployment and maintenance (up to now) of your crowdsourcing tool or project?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr">Cost may include salaries or any expenses... *Case Studies: related to the implementation of your crowdsourcing project; *Tools: related to the costs for providing your services</div>
+							</label>
+							<ul class="ss-choices col-2" role="radiogroup" aria-label="17. COST: Could you share with us the costs of deployment and maintenance (up to now) of your crowdsourcing tool or project?  Cost may include salaries or any expenses... *Case Studies: related to the implementation of your crowdsourcing project; *Tools: related to the costs for providing your services ">
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.953575902" value="$1 - $200 USD/year" id="group_953575902_1" role="radio" class="ss-q-radio" aria-label="$1 - $200 USD/year">
+										</span>
+										<span class="ss-choice-label">$1 - $200 USD/year</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.953575902" value="$200 - $1,000 USD/year" id="group_953575902_2" role="radio" class="ss-q-radio" aria-label="$200 - $1,000 USD/year">
+										</span>
+										<span class="ss-choice-label">$200 - $1,000 USD/year</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.953575902" value="$1,000 USD/year and up" id="group_953575902_3" role="radio" class="ss-q-radio" aria-label="$1,000 USD/year and up">
+										</span>
+										<span class="ss-choice-label">$1,000 USD/year and up</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.953575902" value="Consultant" id="group_953575902_4" role="radio" class="ss-q-radio" aria-label="Consultant">
+										</span>
+										<span class="ss-choice-label">Consultant</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.953575902" value="Free" id="group_953575902_5" role="radio" class="ss-q-radio" aria-label="Free">
+										</span>
+										<span class="ss-choice-label">Free</span>
+									</label>
+								</li>
+							</ul>
+							<div class="error-message" id="24707960_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
 					</div>
-					<div class="ss-q-help ss-secondary-text" dir="ltr">Tools: specific products, platforms or services that enable crowdsourcing efforts. Case Study: description of a specific use of crowdsourcing.</div>
-				</label>
-				<ul class="ss-choices" role="radiogroup" aria-label="14. CLASSIFICATION: Please select the word that best describes your crowdsourcing project Tools: specific products, platforms or services that enable crowdsourcing efforts. Case Study: description of a specific use of crowdsourcing. ">
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="radio" name="entry.1708361297" value="Tool" id="group_1708361297_1" role="radio" class="ss-q-radio" aria-label="Tool" required="" aria-required="true">
-							</span>
-							<span class="ss-choice-label">Tool</span>
+				</div>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_847715261">
+								<div class="q-subject">PLATFORM</div>
+								<div class="ss-q-title">Did you created your own software or platform? If not, could you share with us the tool or platform that helped you achieve your goals?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="text" name="entry.847715261" value="" class="ss-q-short" id="entry_847715261" dir="auto" aria-label="18. PLATFORM: Did you created your own software or platform? If not, could you share with us the tool or platform that helped you achieve your goals?" title="">
+							<div class="error-message" id="1355215206_errorMessage"></div>
+							<div class="required-message">This is a required question</div>
+						</div>
+					</div>
+				</div>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_1990267994">
+								<div class="q-subject">OUTPUTS</div>
+							<div class="ss-q-title">What are your project expected outputs? Have they been produced?
+								<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+								<span class="ss-required-asterisk">*</span>
+							</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">Statistical and anecdotal information on the tool’s effect to date.</div>
 						</label>
-					</li> 
-					<li class="ss-choice-item">
-						<label>
-							<span class="ss-choice-item-control goog-inline-block">
-								<input type="radio" name="entry.1708361297" value="Case study" id="group_1708361297_2" role="radio" class="ss-q-radio" aria-label="Case study" required="" aria-required="true">
-							</span>
-							<span class="ss-choice-label">Case study</span>
-						</label>
-					</li>
-				</ul>
-				<div class="error-message" id="1851676540_errorMessage"></div>
-				<div class="required-message">This is a required question</div>
+						<textarea name="entry.1990267994" rows="8" cols="0" class="ss-q-long" id="entry_1990267994" dir="auto" aria-label="19. OUTPUTS: What are your project expected outputs? Have they been produced?  Statistical and anecdotal information on the tool’s effect to date. " aria-required="true" required=""></textarea>
+						<div class="error-message" id="453023994_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<input type="hidden" name="draftResponse" value="[,,&quot;6667345535914203075&quot;]">
-	<input type="hidden" name="pageHistory" value="0">
-	<input type="hidden" name="fbzx" value="6667345535914203075">
-	<div class="ss-item ss-navigate">
-		<table id="navigation-table">
-			<tbody>
-				<tr>
-					<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-						<input type="submit" name="continue" value="Continue &raquo;" id="ss-submit" class="jfk-button jfk-button-standard ">
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</ol>
-</form>
-
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_928676268">
+								<div class="q-subject">IMPACT UP-TO-TODAY</div>
+							<div class="ss-q-title">Do you have evidence of the current impact of your crowdsourcing tool or project?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">Please be as descriptive as possible</div>
+						</label>
+						<textarea name="entry.928676268" rows="8" cols="0" class="ss-q-long" id="entry_928676268" dir="auto" aria-label="20. IMPACT UP-TO-TODAY: Do you have evidence of the current impact of your crowdsourcing tool or project?  Please be as descriptive as possible "></textarea>
+						<div class="error-message" id="1933168483_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_2071235487">
+								<div class="q-subject">LONG-TERM IMPACT</div>
+							<div class="ss-q-title">What is the expected impact of the crowdsourcing tool or project?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">i.e. What are the changes expected (or vision) as a result of the performed activities whether related to governance or otherwise?</div>
+						</label>
+						<textarea name="entry.2071235487" rows="8" cols="0" class="ss-q-long" id="entry_2071235487" dir="auto" aria-label="21. LONG-TERM IMPACT: What is the expected impact of the crowdsourcing tool or project?  i.e. What are the changes expected (or vision) as a result of the performed activities whether related to governance or otherwise? "></textarea>
+						<div class="error-message" id="1618034014_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_2032352602">
+								<div class="q-subject">CROWD</div>
+							<div class="ss-q-title">Could you describe the crowd you expect to participate? Have they? Why or why not?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">You could describe relevant to your project demographic characteristics (gender, education level, age, etc) and/or you could describe their attitudes and perceptions about the world or about the subject matter of your project, and/or their attitudes toward the Web and technology (how much time do they spend using the Web every week? Is technology a part of their daily live? Etc)</div>
+						</label>
+						<textarea name="entry.2032352602" rows="8" cols="0" class="ss-q-long" id="entry_2032352602" dir="auto" aria-label="22. CROWD: Could you describe the crowd you expect to participate? Have they? Why or why not?  You could describe relevant to your project demographic characteristics (gender, education level, age, etc) and/or you could describe their attitudes and perceptions about the world or about the subject matter of your project, and/or their attitudes toward the Web and technology (how much time do they spend using the Web every week? Is technology a part of their daily live? Etc) "></textarea>
+						<div class="error-message" id="479113454_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_687693086">
+								<div class="q-subject">CHALLENGES</div>
+							<div class="ss-q-title">What are the general challenges the tool or project faces?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">What are the barriers preventing it from having a wider impact? What probably can been better?</div>
+						</label>
+						<textarea name="entry.687693086" rows="8" cols="0" class="ss-q-long" id="entry_687693086" dir="auto" aria-label="23. CHALLENGES: What are the general challenges the tool or project faces?  What are the barriers preventing it from having a wider impact? What probably can been better?"></textarea>
+						<div class="error-message" id="2007670172_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_620813371">
+								<div class="q-subject">LESSONS</div>
+							<div class="ss-q-title">What are the lessons and/or good practices that everyone can learn from you?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+						</label>
+						<textarea name="entry.620813371" rows="8" cols="0" class="ss-q-long" id="entry_620813371" dir="auto" aria-label="24. LESSONS: What are the lessons and/or good practices that everyone can learn from you?  "></textarea>
+						<div class="error-message" id="798835947_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_990343631">
+								<div class="q-subject">HISTORICAL INFORMATION</div>
+							<div class="ss-q-title">When did the tool or project started? Who were the key players in the project development? Source of inspiration?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr">You can narrate its evolution and different forms it has taken since its creation</div>
+						</label>
+						<textarea name="entry.990343631" rows="8" cols="0" class="ss-q-long" id="entry_990343631" dir="auto" aria-label="25. HISTORICAL INFORMATION: when did the tool or project started? Who were the key players in the project development? Source of inspiration? You can narrate its evolution and different forms it has taken since its creation "></textarea>
+						<div class="error-message" id="707893525_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_377042711">
+								<div class="q-subject">VALIDATION</div>
+							<div class="ss-q-title">Why did you decided to use crowdsourcing over any other process?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+						</label>
+						<textarea name="entry.377042711" rows="8" cols="0" class="ss-q-long" id="entry_377042711" dir="auto" aria-label="26. VALIDATION: Why did you decided to use crowdsourcing over any other process?"></textarea>
+						<div class="error-message" id="1320733710_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div> 
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-paragraph-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_1828999323">
+							<div class="ss-q-title">Are there related topics, links or further readings you would like to share with us?</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+						</label>
+						<textarea name="entry.1828999323" rows="8" cols="0" class="ss-q-long" id="entry_1828999323" dir="auto" aria-label="27. Are there related topics, links or further readings you would like to share with us?"></textarea>
+						<div class="error-message" id="754223355_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div> 
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item ss-item-required ss-text">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_1659567811">
+							<div class="ss-q-title">Contact information
+								<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+								<span class="ss-required-asterisk">*</span>
+							</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+						</label>
+						<input type="text" name="entry.1659567811" value="" class="ss-q-short" id="entry_1659567811" dir="auto" aria-label="28. Contact information  " aria-required="true" required="" title="">
+						<div class="error-message" id="591105066_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div> 
+			<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item ss-item-required ss-radio">
+					<div class="ss-form-entry">
+						<label class="ss-q-item-label" for="entry_599744575">
+							<div class="ss-q-title">Can we contact you for follow-up questions or further content clarification?
+								<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+								<span class="ss-required-asterisk">*</span>
+							</div>
+							<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+						</label>
+						<ul class="ss-choices" role="radiogroup" aria-label="29. Can we contact you for follow-up questions or further content clarification?">
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="radio" name="entry.471085348" value="Yes" id="group_471085348_1" role="radio" class="ss-q-radio" aria-label="Yes" required="" aria-required="true">
+									</span>
+									<span class="ss-choice-label">Yes</span>
+								</label>
+							</li>
+							<li class="ss-choice-item">
+								<label>
+									<span class="ss-choice-item-control goog-inline-block">
+										<input type="radio" name="entry.471085348" value="No" id="group_471085348_2" role="radio" class="ss-q-radio" aria-label="No" required="" aria-required="true">
+									</span>
+									<span class="ss-choice-label">No</span>
+								</label>
+							</li>
+						</ul>
+						<div class="error-message" id="599744575_errorMessage"></div>
+						<div class="required-message">This is a required question</div>
+					</div>
+				</div>
+			</div>
+			<div class="errorbox-good" role="listitem">
+				<div dir="ltr" class="ss-item  ss-section-header">
+					<div class="ss-form-entry">
+						<h2 class="ss-section-title">Thank you for your participation!</h2>
+						<div class="ss-section-description ss-no-ignore-whitespace">We are sure your experience will help to the creation of stronger institutions, organizations, communities. We will send you the link as soon as the wiki-entry is ready.</div>
+					</div>
+				</div>
+			</div>
+			<input type="hidden" name="draftResponse" value="[,,&quot;2721905452554745434&quot;]">
+			<input type="hidden" name="pageHistory" value="0">
+			<input type="hidden" name="fbzx" value="2721905452554745434">
+			<div class="ss-item ss-navigate">
+				<table id="navigation-table">
+					<tbody>
+						<tr>
+							<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+								<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action">
+								<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</ol>
+	</form>
+	<script type="text/javascript">var submitted=false;</script>
+	<iframe name="hidden_iframe" id="hidden_iframe"
+	style="display:none;" onload="if(submitted)
+	{window.location='http://YOUR-THANK-YOU-PAGE-URL';}"></iframe>
+	<form action="https://docs.google.com/forms/d/16WPs6esTaLOTwHxN1Ga5Hcpc7iaw3FPUidW6FD_7v98/formResponse" method="post"
+	target="hidden_iframe" onsubmit="submitted=true;">
   
 </body>
 </html>
